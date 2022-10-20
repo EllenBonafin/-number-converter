@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+  justify-content: center;
+}
+
+input{
+  width: 15%;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.box-input{
+  background-color: black;
+  padding: 30px;
+}
+
+.box-anwser{
+  background-color: gray;
+  padding: 40px;
+  text-align: center;
+}

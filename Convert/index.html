@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Conversor</title>
+  </head>
 
-  <div>
-    <input type="text" onchange="converter(this.value)">
-  </div>
+  <body>
+
+    <div class="box"> 
+      <h1>converter</h1>
+      <div class="box-input">
+        <input type="text" onchange="converter(this.value)"class="inputs"/>
+      </div>
   
-  <div>
-    <h1 id="resposta">0</h1>
-  </div>
-  
+      <div class="box-anwser">
+        <h1 id="resposta">0</h1>
+      </div>
+    </div>
+  </body>
+
   <script>
-    function converter (num){
+    function converter(num) {
       var dec = parseInt(num)
       var bin = dec.toString(2)
-      document.getElementById("resposta").innerText=bin
+      document.getElementById('resposta').innerText = bin
     }
   </script>
-</body>
 </html>
