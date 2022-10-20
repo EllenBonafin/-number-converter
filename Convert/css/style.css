@@ -18,13 +18,34 @@ input{
   margin: 0 auto;
 }
 
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  padding-top: 10px;
+}
+
+h3{
+  padding: 5px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
 .box-input{
-  background-color: black;
+  background-color: #A9A9A9;
   padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input{
+  background-color: #D3D3D3;
 }
 
 .box-anwser{
   background-color: gray;
   padding: 40px;
+  width: 50%;
   text-align: center;
+  margin: 0 auto;
 }
